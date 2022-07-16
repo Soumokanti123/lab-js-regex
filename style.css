@@ -1,29 +1,56 @@
-   
-div {  
-    box-sizing: border-box; 
-    width: 100%; 
-    border: 100px solid black; 
-} 
-   
-form {                                         
-    margin: 0 auto; 
-    width: 600px;
+ body {
+    background: linear-gradient(to right, #003366 0, #336699 58%);
+ }  
+
+
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+div {
+    box-sizing: border-box;
+    width: 100%;
+    border: 100px solid black;
+}
+
+form {
+    margin: 0 auto;
+    width: 1000px;
     text-align: center;
     border: 1px Solid black;
     background-color: aliceblue;
 }
 
-form>p{
+form>p {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
-input{
+
+input {
     width: 300px;
     margin-left: 2%;
     float: inline-end;
 }
-.alert{
+
+.alert {
     color: red;
+}
+
+#submt {
+    background: rgb(255, 39, 39);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#submt:hover {
+    background: rgb(173, 27, 27);
 }
